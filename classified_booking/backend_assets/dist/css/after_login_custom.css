@@ -1,0 +1,1048 @@
+/*START: Common Designing
+*/
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon-remove::before {
+	content: "\e014";
+}
+.glyphicon-ok::before {
+	content: "\e013";
+}
+.has-error .form-control-feedback {
+	color: #a94442;
+}
+.has-success .form-control-feedback {
+	color: #3c763d;
+}
+.form-control-feedback {
+	position: absolute;
+	/*top: 0;*/
+	/*right: 0;*/
+	right: 1%;
+	z-index: 2;
+	display: block;
+	width: 34px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	pointer-events: none;
+	/*top: -50% !important;*/
+	float: right;
+}
+.glyphicon {
+	position: absolute;
+	top: 1px;
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success.radio label,
+.has-success.checkbox label,
+.has-success.radio-inline label,
+.has-success.checkbox-inline label {
+  color: #3c763d;
+}
+.has-success .form-control {
+  border-color: #3c763d;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+.has-success .form-control:focus {
+  border-color: #2b542c;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
+}
+.has-success .input-group-addon {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #3c763d;
+}
+.has-success .form-control-feedback {
+  color: #3c763d;
+}
+
+.has-error .help-block,
+.has-error .control-label,
+.has-error .radio,
+.has-error .checkbox,
+.has-error .radio-inline,
+.has-error .checkbox-inline,
+.has-error.radio label,
+.has-error.checkbox label,
+.has-error.radio-inline label,
+.has-error.checkbox-inline label {
+  color: #a94442;
+}
+.has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+}
+.has-error .form-control:focus {
+  border-color: #843534;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+}
+.has-error .input-group-addon {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #a94442;
+}
+.has-error .form-control-feedback {
+  color: #a94442;
+}
+.has-feedback label ~ .form-control-feedback {
+  top: 25px;
+}
+.has-feedback label.sr-only ~ .form-control-feedback {
+  top: 0;
+}
+.help-block {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #737373;
+}
+
+.cls_margin_left_2_perc
+{
+	margin-left: 2%;
+}
+.cls_color_white{
+	color: #fff !important;
+}
+.cls_width_100_perc{
+	width: 100%;
+}
+.cls_width_94_perc{
+	width: 94% !important;
+}
+.cls_width_35_perc{
+	width: 35%;
+}
+.cls_width_50_perc{
+	width: 50%;
+}
+.cls_width_52_perc{
+	width: 52%;
+}
+.cls_width_55_perc{
+	width: 55%;
+}
+.cls_width_56_perc{
+	width: 56%;
+}
+.cls_width_57_perc{
+	width: 57%;
+}
+.cls_width_63_perc{
+	width: 63%;
+}
+.cls_width_65_perc{
+	width: 65% !important;
+}
+.cls_float_left
+{
+	float: left;
+}
+.cls_message_success_true
+{
+	color: #13931e !important;
+}
+.cls_message_success_false
+{
+	color: #a94442 !important;
+}
+.cls_display_none
+{
+	display: none;
+}
+.cls_display_block
+{
+	display: block;
+}
+.cls_display_inline_block
+{
+	display: inline-block;
+}
+.cls_padding_left_2_perc
+{
+	padding-left: 2% !important;
+}
+/*END: Common Designing
+*/
+
+/*START: Admin Menu Designing
+*/
+.cls_logo {
+	height: 11%;
+	width: 100%;
+}
+.cls_user_img
+{
+	color: #fff;
+	font-size: 200%;
+}
+/*END: Admin Menu Designing
+*/
+
+/*START: User Profile Page Designing
+*/
+
+/*START: User Profile Form*/
+/*[data-bv-for="mobile_no"]
+{
+	display: block;
+}
+[data-bv-for="email"]
+{
+	display: block;
+}*/
+.cls_user_profile_page .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_user_profile_form #user-profile-form-help-block
+{
+	color: #13931e;
+}
+.cls_user_profile_page
+{
+	text-align: center;
+}
+.flat-general .cls_user_profile_page .general
+{
+	width: 100% !important;
+}
+.cls_user_profile_page .form-group input
+{
+	/*width: 65% !important;
+	margin-left: 18%;*/
+}
+.cls_user_profile_page .form-group select
+{
+	/*width: 65% !important;
+	margin-left: 1%;*/
+}
+.cls_user_profile_img
+{
+	color: #000;
+	font-size: 500%;
+}
+/*END: User Profile Form*/
+
+/*START: Password Reset Form*/
+.cls_password_reset_form .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_password_reset_form #password-reset-form-help-block
+{
+	color: #13931e;
+}
+.cls_password_reset_page
+{
+	text-align: center;
+}
+.flat-general .cls_password_reset_page .general
+{
+	width: 100% !important;
+}
+.cls_password_reset_page .form-group input
+{
+	/*width: 65% !important;
+	margin-left: 18%;*/
+}
+.cls_password_reset_page .form-group select
+{
+	/*width: 65% !important;
+	margin-left: 1%;*/
+}
+/*END: Password Reset Form*/	
+
+/*END: User Profile Page Designing
+*/
+
+/*START: Transporter Orders Details Page Designing
+*/
+.cls_transporter_details_view_modal .text-center.bg-success.color-palette,
+.cls_transporter_details_view_modal .text-center.bg-light.color-palette,
+.cls_transporter_details_view_modal .bg-info.color-palette,
+.cls_transporter_details_view_modal .text-center.bg-orange.color-palette.cls_color_white,
+.cls_transporter_details_view_modal .text-center.bg-primary.color-palette.cls_color_white,
+.cls_transporter_details_view_modal .text-center.bg-warning.color-palette.cls_color_white,
+.cls_transporter_details_view_modal .text-center.bg-danger.color-palette
+{
+	float: right;
+	width: 65%;
+	text-align: left !important;
+}
+.cls_transporter_details_view_modal .bg-light.color-palette {
+	width: 33%;
+	text-align: left;
+}
+.cls_transporter_orders_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_transporter_orders_list #order-status-update-help-block
+{
+	color: #13931e;
+}
+.cls_transporter_orders_list #order-delete-help-block
+{
+	color: #13931e;
+}
+.cls_transporter_orders_list #order-shared-update-help-block
+{
+	color: #13931e;
+}
+/*END: Transporter Orders Details Page Designing
+*/
+
+/*START: Customer Orders Details Page Designing
+*/
+.cls_customer_details_view_modal .text-center.bg-success.color-palette,
+.cls_customer_details_view_modal .text-center.bg-light.color-palette,
+.cls_customer_details_view_modal .bg-info.color-palette,
+.cls_customer_details_view_modal .text-center.bg-orange.color-palette.cls_color_white,
+.cls_customer_details_view_modal .text-center.bg-primary.color-palette.cls_color_white,
+.cls_customer_details_view_modal .text-center.bg-warning.color-palette.cls_color_white,
+.cls_customer_details_view_modal .text-center.bg-danger.color-palette
+{
+	float: right;
+	width: 65%;
+	text-align: left !important;
+}
+.cls_customer_details_view_modal .bg-light.color-palette {
+	width: 33%;
+	text-align: left;
+}
+.cls_customer_orders_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_customer_orders_list #order-status-update-help-block
+{
+	color: #13931e;
+}
+.cls_customer_orders_list #order-delete-help-block
+{
+	color: #13931e;
+}
+.cls_customer_orders_list #order-shared-update-help-block
+{
+	color: #13931e;
+}
+
+/*START: Select Transporters
+*/
+.cls_select_transporters_view_modal .text-center.bg-success.color-palette,
+.cls_select_transporters_view_modal .text-center.bg-light.color-palette,
+.cls_select_transporters_view_modal .bg-info.color-palette,
+.cls_select_transporters_view_modal .bg-primary.color-palette,
+.cls_select_transporters_view_modal .text-center.bg-orange.color-palette.cls_color_white,
+.cls_select_transporters_view_modal .text-center.bg-primary.color-palette.cls_color_white,
+.cls_select_transporters_view_modal .text-center.bg-warning.color-palette.cls_color_white,
+.cls_select_transporters_view_modal .text-center.bg-danger.color-palette
+{
+	float: right;
+	width: 65%;
+	text-align: left !important;
+}
+.cls_select_transporters_view_modal .bg-light.color-palette {
+	width: 33%;
+	text-align: left;
+}
+.cls_select_transporters_list .color-palette,.cls_select_transporters_view_modal .color-palette
+{
+	height: 35px !important;
+	line-height: 35px;
+	text-align: right;
+	padding-right: .75rem;
+	display: inline-block;
+	padding-left: 0.75rem;
+}
+.cls_select_transporters_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_select_transporters_list #order-status-update-help-block
+{
+	color: #13931e;
+}
+.cls_select_transporters_list #order-select-transporter-update-help-block
+{
+	color: #13931e;
+}
+/*END: Select Transporters
+*/
+
+/*START: Country
+*/
+.cls_countries_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_countries_list #country-delete-help-block
+{
+	color: #13931e;
+}
+.cls_countries_list #country-update-help-block
+{
+	color: #13931e;
+}
+.cls_countries_list .cls_country_name:focus
+{
+	background-color: #fd7e14;
+	color: #fff;
+}
+.cls_countries_list .btn.btn-success.btn-sm.cls_add_country {
+	float: right;
+}
+.cls_countries_list .cls_add_country{
+	float: left;
+}
+.cls_countries_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::after
+{
+	content: "\2193";
+}
+.cls_countries_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::before
+{
+	content: "\2193";
+}
+.cls_add_country_form #country-add-help-block
+{
+	color: #13931e;
+}
+
+/*END: Country
+*/
+
+/*START: Booking
+*/
+.cls_booking_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_booking_list #booking-delete-help-block
+{
+	color: #13931e;
+}
+.cls_booking_list #booking-update-help-block
+{
+	color: #13931e;
+}
+.cls_booking_list .cls_booking_name:focus
+{
+	background-color: #fd7e14;
+	color: #fff;
+}
+
+.cls_booking_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::after
+{
+	content: "\2193";
+}
+.cls_booking_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::before
+{
+	content: "\2193";
+}
+.cls_add_booking_form #booking-add-help-block
+{
+	color: #13931e;
+}
+
+/*END: Booking
+*/
+
+/*START: Newspaper
+*/
+.cls_newspaper_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_newspaper_list #newspaper-delete-help-block
+{
+	color: #13931e;
+}
+.cls_newspaper_list #newspaper-update-help-block
+{
+	color: #13931e;
+}
+.cls_newspaper_list .cls_newspaper_name:focus
+{
+	background-color: #fd7e14;
+	color: #fff;
+}
+.cls_newspaper_list .btn.btn-success.btn-sm.cls_add_newspaper {
+	float: right;
+}
+.cls_newspaper_list .cls_add_newspaper{
+	float: left;
+}
+.cls_newspaper_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::after
+{
+	content: "\2193";
+}
+.cls_newspaper_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::before
+{
+	content: "\2193";
+}
+.cls_add_newspaper_form #newspaper-add-help-block
+{
+	color: #13931e;
+}
+
+/*END: Newspaper
+*/
+
+/*START: Advertiesment
+*/
+.cls_advertiesment_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_advertiesment_list #advertiesment-delete-help-block
+{
+	color: #13931e;
+}
+.cls_advertiesment_list #advertiesment-update-help-block
+{
+	color: #13931e;
+}
+.cls_advertiesment_list .cls_advertiesment_name:focus
+{
+	background-color: #fd7e14;
+	color: #fff;
+}
+.cls_advertiesment_list .btn.btn-success.btn-sm.cls_add_advertiesment {
+	float: right;
+}
+.cls_advertiesment_list .cls_add_advertiesment{
+	float: left;
+}
+.cls_advertiesment_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::after
+{
+	content: "\2193";
+}
+.cls_advertiesment_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::before
+{
+	content: "\2193";
+}
+.cls_add_advertiesment_form #advertiesment-add-help-block
+{
+	color: #13931e;
+}
+.cls_edit_advertiesment_form #advertiesment-edit-help-block
+{
+	color: #13931e;
+}
+
+/*END: Advertiesment
+*/
+
+/*START: State
+*/
+.cls_states_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_states_list #state-delete-help-block
+{
+	color: #13931e;
+}
+.cls_states_list #state-update-help-block
+{
+	color: #13931e;
+}
+.cls_states_list .cls_state_name:focus
+{
+	background-color: #fd7e14;
+	color: #fff;
+}
+.cls_states_list .btn.btn-success.btn-sm.cls_add_state {
+	float: right;
+}
+.cls_states_list .cls_add_state{
+	float: left;
+}
+.cls_states_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::after
+{
+	content: "\2193";
+}
+.cls_states_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::before
+{
+	content: "\2193";
+}
+.cls_states_list #country-select-help-block
+{
+	color: #13931e;
+}
+.cls_states_list #state-country-update-help-block
+{
+	color: #13931e;
+}
+.cls_add_state_form #state-add-help-block
+{
+	color: #13931e;
+}
+.cls_add_state_form .form-control-feedback
+{
+	right: 3% !important;
+}
+/*END: State
+*/
+
+/*START: City
+*/
+.cls_cities_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_cities_list #city-delete-help-block
+{
+	color: #13931e;
+}
+.cls_cities_list #city-update-help-block
+{
+	color: #13931e;
+}
+.cls_cities_list .cls_city_name:focus
+{
+	background-color: #fd7e14;
+	color: #fff;
+}
+.cls_cities_list .btn.btn-success.btn-sm.cls_add_city {
+	float: right;
+}
+.cls_cities_list .cls_add_city{
+	float: left;
+}
+.cls_cities_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::after
+{
+	content: "\2193";
+}
+.cls_cities_list .bg-orange.cls_color_white.color-palette.cls_click_to_edit::before
+{
+	content: "\2193";
+}
+.cls_add_city_form #city-add-help-block
+{
+	color: #13931e;
+}
+.cls_edit_city_form #city-edit-help-block
+{
+	color: #13931e;
+}
+.cls_add_city_form .form-control-feedback
+{
+	right: 3% !important;
+}
+.cls_edit_city_form .form-control-feedback
+{
+	right: 3% !important;
+}
+
+/*END: City
+*/
+
+/*START: Customers
+*/
+.cls_customers_list .help-block
+{
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_customers_list #customers-delete-help-block
+{
+	color: #13931e;
+}
+.cls_customers_list #customers-update-help-block
+{
+	color: #13931e;
+}	
+/*END: Customers
+*/
+
+/*START: Customer User Profile Page Designing
+*/
+
+/*START: Customer User Profile Form*/
+/*[data-bv-for="mobile_no"]
+{
+	display: block;
+}
+[data-bv-for="email"]
+{
+	display: block;
+}*/
+.cls_customer_profile_page .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_customer_profile_form #customer-profile-form-help-block
+{
+	color: #13931e;
+}
+.cls_customer_profile_page
+{
+	text-align: center;
+}
+.flat-general .cls_customer_profile_page .general
+{
+	width: 100% !important;
+}
+.cls_customer_profile_page .form-group input
+{
+	/*width: 65% !important;
+	margin-left: 18%;*/
+}
+.cls_customer_profile_page .form-group select
+{
+	/*width: 65% !important;
+	margin-left: 1%;*/
+}
+.cls_customer_profile_img
+{
+	color: #000;
+	font-size: 500%;
+}
+.cls_customer_profile_form .form-control-feedback {
+	right: 3% !important;
+}
+/*END: Customer User Profile Form*/
+
+/*START: Customer Password Reset Form*/
+.cls_customer_password_reset_form .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_customer_password_reset_form #customer-password-reset-form-help-block
+{
+	color: #13931e;
+}
+.cls_customer_password_reset_page
+{
+	text-align: center;
+}
+.flat-general .cls_customer_password_reset_page .general
+{
+	width: 100% !important;
+}
+.cls_customer_password_reset_page .form-group input
+{
+	/*width: 65% !important;
+	margin-left: 18%;*/
+}
+.cls_customer_password_reset_page .form-group select
+{
+	/*width: 65% !important;
+	margin-left: 1%;*/
+}
+/*END: Customer Password Reset Form*/
+
+/*END: Customer Profile Page Designing
+*/
+
+/*START: Transporters
+*/
+.cls_transporters_list .help-block
+{
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_transporters_list #transporters-delete-help-block
+{
+	color: #13931e;
+}
+.cls_transporters_list #transporters-update-help-block
+{
+	color: #13931e;
+}	
+/*END: Transporters
+*/
+
+/*START: Transporter Profile Page Designing
+*/
+
+/*START: Transporter Profile Form*/
+/*[data-bv-for="mobile_no"]
+{
+	display: block;
+}
+[data-bv-for="email"]
+{
+	display: block;
+}*/
+.cls_transporter_profile_page .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_transporter_profile_form #transporter-profile-form-help-block
+{
+	color: #13931e;
+}
+.cls_transporter_profile_page
+{
+	text-align: center;
+}
+.flat-general .cls_transporter_profile_page .general
+{
+	width: 100% !important;
+}
+.cls_transporter_profile_page .form-group input
+{
+	/*width: 65% !important;
+	margin-left: 18%;*/
+}
+.cls_transporter_profile_page .form-group select
+{
+	/*width: 65% !important;
+	margin-left: 1%;*/
+}
+.cls_transporter_profile_img
+{
+	color: #000;
+	font-size: 500%;
+}
+.cls_transporter_profile_form .form-control-feedback {
+	right: 3% !important;
+}
+/*END: Transporter Profile Form*/
+
+/*START: Transporter Password Reset Form*/
+.cls_transporter_password_reset_form .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_transporter_password_reset_form #transporter-password-reset-form-help-block
+{
+	color: #13931e;
+}
+.cls_transporter_password_reset_page
+{
+	text-align: center;
+}
+.flat-general .cls_transporter_password_reset_page .general
+{
+	width: 100% !important;
+}
+.cls_transporter_password_reset_page .form-group input
+{
+	/*width: 65% !important;
+	margin-left: 18%;*/
+}
+.cls_transporter_password_reset_page .form-group select
+{
+	/*width: 65% !important;
+	margin-left: 1%;*/
+}
+/*END: Transporter Password Reset Form*/
+
+
+/*START: Transporter Documents Form*/
+.cls_transporter_documents_form .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_transporter_documents_form #transporter-documents-form-help-block
+{
+	color: #13931e;
+}
+.cls_transporter_documents_page
+{
+	text-align: center;
+}
+.flat-general .cls_transporter_documents_page .general
+{
+	width: 100% !important;
+}
+.cls_transporter_documents_page .form-group input
+{
+	/*width: 65% !important;
+	margin-left: 18%;*/
+}
+.cls_transporter_documents_page .form-group select
+{
+	/*width: 65% !important;
+	margin-left: 1%;*/
+}
+.cls_user_license_image, .cls_user_policy_image
+{
+	width: 100%;
+	height: 350px;
+}
+.cls_transporter_documents_form .color-palette
+{
+	height: 35px !important;
+	line-height: 35px;
+	text-align: right;
+	padding-right: .75rem;
+	display: inline-block;
+	padding-left: 0.75rem;
+}
+/*END: Transporter Documents Form*/
+
+/*END: Transporter Profile Page Designing
+*/
+
+/*START: Order Details Form*/
+.cls_order_details_form .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_order_details_form #order-details-form-help-block
+{
+	color: #13931e;
+}
+/*END: Order Details Form*/
+
+/*END: Customer Orders Details Page Designing
+*/
+
+/*START: Transporter Payments Details Page Designing
+*/
+.cls_transporter_payments_view_modal .text-center.bg-success.color-palette,
+.cls_transporter_payments_view_modal .text-center.bg-light.color-palette,
+.cls_transporter_payments_view_modal .bg-info.color-palette,
+.cls_transporter_payments_view_modal .bg-success.color-palette,
+.cls_transporter_payments_view_modal .text-center.bg-orange.color-palette.cls_color_white,
+.cls_transporter_payments_view_modal .text-center.bg-primary.color-palette.cls_color_white,
+.cls_transporter_payments_view_modal .text-center.bg-warning.color-palette.cls_color_white,
+.cls_transporter_payments_view_modal .text-center.bg-danger.color-palette
+{
+	float: right;
+	width: 65%;
+	text-align: left !important;
+}
+.cls_transporter_payments_view_modal .bg-light.color-palette {
+	width: 33%;
+	text-align: left;
+}
+.cls_transporter_payments_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_transporter_payments_list #order-status-update-help-block
+{
+	color: #13931e;
+}
+.cls_transporter_payments_list #order-delete-help-block
+{
+	color: #13931e;
+}
+.cls_transporter_payments_list #order-shared-update-help-block
+{
+	color: #13931e;
+}
+
+.cls_transporter_payments_list .btn.btn-success.btn-sm.cls_add_payment {
+	float: right;
+}
+.cls_transporter_payments_list .cls_add_payment{
+	float: left;
+}
+.cls_add_payment_form #payment-add-help-block
+{
+	color: #13931e;
+}
+.cls_add_payment_form .form-control-feedback {
+	right: 3% !important;
+}
+.cls_edit_payment_form #payment-edit-help-block
+{
+	color: #13931e !important;
+}
+.cls_edit_payment_form .form-control-feedback
+{
+	right: 3% !important;
+}
+.cls_transporter_payments_list #payment-delete-help-block
+{
+	color: #13931e;
+}
+/*END: Transporter Payments Details Page Designing
+*/
+
+/*START: Transporter Payments Requests Page Designing
+*/
+.cls_transporter_payments_requests_view_modal .text-center.bg-success.color-palette,
+.cls_transporter_payments_requests_view_modal .text-center.bg-light.color-palette,
+.cls_transporter_payments_requests_view_modal .bg-info.color-palette,
+.cls_transporter_payments_requests_view_modal .bg-success.color-palette,
+.cls_transporter_payments_requests_view_modal .text-center.bg-orange.color-palette.cls_color_white,
+.cls_transporter_payments_requests_view_modal .text-center.bg-primary.color-palette.cls_color_white,
+.cls_transporter_payments_requests_view_modal .text-center.bg-warning.color-palette.cls_color_white,
+.cls_transporter_payments_requests_view_modal .text-center.bg-danger.color-palette
+{
+	float: right;
+	width: 65%;
+	text-align: left !important;
+}
+.cls_transporter_payments_requests_view_modal .bg-light.color-palette {
+	width: 33%;
+	text-align: left;
+}
+.cls_transporter_payments_requests_list .help-block
+{	
+	color: #a94442;
+	font-size: 100%;
+}
+.cls_transporter_payments_requests_list #order-status-update-help-block
+{
+	color: #13931e;
+}
+.cls_transporter_payments_requests_list #order-delete-help-block
+{
+	color: #13931e;
+}
+.cls_transporter_payments_requests_list #order-shared-update-help-block
+{
+	color: #13931e;
+}
+.cls_edit_payment_request_form #payment-request-edit-help-block
+{
+	color: #13931e !important;
+}
+.cls_edit_payment_request_form .form-control-feedback
+{
+	right: 3% !important;
+}
+.cls_transporter_payments_requests_list #payment-request-delete-help-block
+{
+	color: #13931e;
+}
+/*END: Transporter Payments Details Page Designing
+*/

@@ -1,0 +1,4 @@
+email:ciproject@gmail.com
+password: 12345678
+encrypted password: 
+56634bf8c27b9e0bd7f13644966a5c9794790caa23470033d97ccb2097e59c034de7e18d3db3d7e83e46b56be31566f01c69bf1163f1724f7dcad2b13d994adfmg3QmqpndKn5JfbcTuz7txRJizIyCKWkrERcSFgIWGA=

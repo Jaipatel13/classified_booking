@@ -1,0 +1,82 @@
+/*START: Common Designing
+*/
+.cls_padding_right_1_perc
+{
+	padding-right: 1%;
+}
+*{
+	font-size: 1rem !important;
+}
+.cls_message_icon_success_true::before
+{
+	content: "\e013";
+	font-size: 200% !important;
+}
+.cls_message_success_true
+{
+	color: #3c763d !important;
+	font-size: 200% !important;	
+}
+.cls_message_icon_success_false::before
+{
+	content: "\e014";
+	font-size: 200% !important;
+}
+.cls_message_success_false
+{
+	color: #a94442 !important;
+	font-size: 200% !important;	
+}
+.cls_font_size_100_perc{
+	font-size: 100% !important;
+}
+.cls_text_align_center{
+	text-align: center;
+}
+/*END: Common Designing
+*/
+
+/*START: Login and Forgot Password Pages Designing
+*/
+.cls_bgcolor_white{
+	background-color: #fff !important;
+}
+.cls_login_card_shadow{
+	/*box-shadow: 0 0 12px rgba(0,0,0,.125),0 12px 26px rgba(0,0,0,.2) !important;*/
+	/*box-shadow: 0 0 25px rgba(0,0,0,.125),0 12px 50px rgba(0,0,0,.2) !important;*/
+	box-shadow: 0 0 50px rgba(0,0,0,.125),0 0 550px rgba(0,0,0,.2) !important;
+	background-color: #e9ecef !important;
+	border: 0 solid rgba(251, 244, 244, 0.13) !important;
+}
+
+/*START: Login Form*/
+/*.cls_login_page
+{
+	text-align: center;
+}*/
+.cls_login_form .help-block
+{	
+	color: #a94442;
+}
+.cls_login_form #login-form-help-block
+{
+	color: #13931e;
+}
+#message_block{
+	text-align: center;
+}
+/*END: Login Form*/
+
+/*START: Forgot Password Form*/
+.cls_forgot_password_form .help-block
+{
+	color: #a94442;
+}
+.cls_forgot_password_form #forgot-password-form-help-block
+{
+	color: #13931e;
+}
+/*END: Forgot Password Form*/
+
+/*END: Login and Forgot Password Pages Designing
+*/

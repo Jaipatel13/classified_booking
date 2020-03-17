@@ -1,0 +1,779 @@
+/*START: Common Designing
+*/
+.cls_clear_both
+{
+	clear: both;
+}
+.cls_width_40_perc
+{
+	width: 40%;
+}
+.cls_width_60_perc
+{
+	width: 60%;
+}
+.cls_display_none
+{
+	display: none !important;
+}
+.cls_visibility_hidden
+{
+	visibility: hidden;
+}
+.cls_margin_left_0_perc
+{
+	margin-left: 0% !important;
+}
+.cls_min_height_5_px
+{
+	min-height: 5px;
+}
+.cls_padding_right_1_perc
+{
+	padding-right: 1%;
+}
+.cls_message_icon_success_true::before
+{
+	content: "\e013";
+}
+.cls_message_success_true
+{
+	color: #3c763d !important;
+	font-size: 200%;
+}
+.cls_message_icon_success_false::before
+{
+	content: "\e014";
+}
+.cls_message_success_false
+{
+	color: #a94442 !important;
+	font-size: 200%;
+}
+.cls_header_login_signup a{
+	/*float: right !important;
+	margin-left: 0px !important;*/
+	color: #fff !important;
+}
+.cls_header_login_signup a:hover{
+	/*float: right !important;
+	margin-left: 0px !important;*/	
+	color: #3aa1e3 !important;
+}
+.cls_text_align_left{
+	text-align: left;
+}
+.cls_text_align_right{
+	text-align: right;
+}
+.cls_text_align_center{
+	text-align: center;
+}
+.cls_float_none{
+	float: none !important;
+}
+.cls_float_left{
+	float: left !important;
+}
+.cls_float_right{
+	float: right !important;
+}
+.cls_margin_bottom_3_perc{
+	margin-bottom: 3%;
+}
+.cls_margin_bottom_2_perc{
+	margin-bottom: 2%;
+}
+
+.quick-form select {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.quick-form input[type="password"] {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.quick-form input[type="email"] {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.quick-form input[type="number"] {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+input[type="button"]:focus, input[type="button"]:active, input[type="reset"]:focus, input[type="reset"]:active {
+	outline: 2px solid #666e70;
+}
+/*END: Common Designing
+*/
+
+/*START: Home Page Designing
+*/
+.cls_why_choose_us li:before{
+	/*content:"\2713\0020";*/
+	content: "\2714\0020";
+}
+.blog-shortcode .blog-post .entry-cover a:hover img.cls_nationwide_delivery_img
+{
+	opacity: 1 !important;
+}
+.blog-shortcode .blog-post .entry-cover a.cls_nationwide_delivery_a:hover::before
+{
+	opacity: 0 !important;
+}
+.blog-shortcode .blog-post .entry-cover a.cls_nationwide_delivery_a::after
+{
+	content: " ";
+}
+
+/*END: Home Page Designing
+*/
+
+/*START: Signup Form*/
+.cls_signup_form .help-block
+{
+	/*color: #fcbe32;*/
+	/*color: #3aa1e3;*/
+	color: #a94442;
+}
+.cls_signup_form #form-help-block
+{
+	color: #13931e;
+}
+.cls_signup_page
+{
+	text-align: center;
+}
+.flat-general .cls_signup_page .general
+{
+	width: 100% !important;
+}
+.cls_signup_page .form-group input
+{
+	width: 65% !important;
+	margin-left: 18%;
+}
+.cls_signup_page .form-group select
+{
+	width: 65% !important;
+	margin-left: 1%;
+}
+.cls_signup_tc_div
+{
+	width: 35%;
+	float: left;
+	text-align: right;
+	line-height: 0%;
+}
+.cls_signup_tc_input
+{
+	padding-left: 1% !important;
+	width: 5% !important;
+	line-height: 0% !important;
+}
+.cls_signup_tc_label_div
+{
+	 width: 30%;
+	 float: left;
+	 margin-top: 0.5%;
+}
+
+/*START: Modal Box */
+.cls_signup_tc_modal .text-center.bg-success.color-palette,
+.cls_signup_tc_modal .text-center.bg-light.color-palette,
+.cls_signup_tc_modal .bg-info.color-palette,
+.cls_signup_tc_modal .text-center.bg-orange.color-palette.cls_color_white,
+.cls_signup_tc_modal .text-center.bg-primary.color-palette.cls_color_white,
+.cls_signup_tc_modal .text-center.bg-warning.color-palette,
+.cls_signup_tc_modal .text-center.bg-danger.color-palette
+{
+	float: right;
+	width: 65%;
+	text-align: left !important;
+}
+.cls_signup_tc_modal .modal-title{
+	text-align: left;
+}
+.cls_signup_tc_modal .bg-light.color-palette {
+	width: 33%;
+	text-align: left;
+}
+.cls_signup_tc_modal .modal-header {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 1rem;
+	border-bottom: 1px solid #e9ecef;
+	border-top-left-radius: .3rem;
+	border-top-right-radius: .3rem;
+}
+.cls_signup_tc_modal .modal-header .close, .cls_signup_tc_modal .modal-header .mailbox-attachment-close {
+	padding: 1rem;
+	margin: -1rem -1rem -1rem auto;
+}
+.cls_signup_tc_modal .close, .cls_signup_tc_modal .mailbox-attachment-close {
+	float: right;
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .5;
+}
+.cls_signup_tc_modal .justify-content-between {
+	-ms-flex-pack: justify !important;
+	justify-content: space-between !important;
+}
+.cls_signup_tc_modal .modal-footer{
+	text-align: left !important;
+}
+/*END: Modal Box */
+
+/*END: Signup Form*/
+
+/*START: Login Form*/
+.cls_login_form input[type="password"] {
+	width: 50%;
+	margin-bottom: 30px;
+}
+.cls_login_form input[type="email"] {
+	width: 50%;
+	margin-bottom: 30px;
+}
+.cls_login_form .help-block
+{
+	/*color: #fcbe32;*/
+	/*color: #3aa1e3;*/
+	color: #a94442;
+}
+.cls_login_form #login-form-help-block
+{
+	color: #13931e;
+}
+.cls_login_page
+{
+	text-align: center;
+}
+.flat-general .cls_login_page .general
+{
+	width: 100% !important;
+}
+h5.cls_login_h5
+{
+	margin: 0px;
+}
+.cls_login_page .form-group input
+{
+	margin-left: 25%;
+}
+.cls_forgot_password_link {
+	text-align: left !important;
+	margin-left: 25% !important;
+}
+.cls_register_button_link {
+	border: 2px solid;
+	border-color: #3aa1e3;
+	padding: 1%;
+}
+/*END: Login Form*/
+
+/*START: Forgot Password Form*/
+.cls_forgot_password_form input[type="email"] {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.cls_forgot_password_form .help-block
+{
+	color: #a94442;
+}
+.cls_forgot_password_form #forgot-password-form-help-block
+{
+	color: #13931e;
+}
+.cls_forgot_password_page
+{
+	text-align: center;
+}
+.flat-general .cls_forgot_password_page .general
+{
+	width: 100% !important;
+}
+.cls_forgot_password_page .form-group input
+{
+	margin-left: 25%;
+}
+/*END: Forgot Password Form*/
+
+/*START: User Profile Form*/
+.cls_user_profile_page .help-block
+{
+	/*color: #fcbe32;*/
+	/*color: #3aa1e3;*/
+	color: #a94442;
+}
+.cls_user_profile_form #user-profile-form-help-block
+{
+	color: #13931e;
+}
+.cls_user_profile_page
+{
+	text-align: center;
+}
+.flat-general .cls_user_profile_page .general
+{
+	width: 100% !important;
+}
+.cls_user_profile_page .form-group input
+{
+	width: 65% !important;
+	margin-left: 18%;
+}
+.cls_user_profile_page .form-group select
+{
+	width: 65% !important;
+	margin-left: 1%;
+}
+/*END: User Profile Form*/
+
+/*START: Password Reset Form*/
+.cls_password_reset_form .help-block
+{	
+	color: #a94442;
+}
+.cls_password_reset_form #password-reset-form-help-block
+{
+	color: #13931e;
+}
+.cls_password_reset_page
+{
+	text-align: center;
+}
+.flat-general .cls_password_reset_page .general
+{
+	width: 100% !important;
+}
+.cls_password_reset_page .form-group input
+{
+	width: 65% !important;
+	margin-left: 18%;
+}
+.cls_password_reset_page .form-group select
+{
+	width: 65% !important;
+	margin-left: 1%;
+}
+/*END: Password Reset Form*/
+
+/*START: Generate Order Form*/
+.cls_generate_order_form .help-block
+{	
+	color: #a94442;
+}
+.cls_generate_order_form #generate-order-form-help-block, .cls_generate_order_form #pickup-location-help-block, .cls_generate_order_form #delivered-to-location-help-block
+{
+	color: #13931e;
+}
+.cls_generate_order_page
+{
+	text-align: center;
+}
+.flat-general .cls_generate_order_page .general
+{
+	width: 100% !important;
+}
+.cls_generate_order_page .form-group input
+{
+	width: 65% !important;
+	margin-left: 18%;
+}
+.cls_generate_order_page .form-group select
+{
+	width: 65% !important;
+	margin-left: 1%;
+}
+/*END: Generate Order Form*/
+
+/*START: Orders Listing Page*/
+.flat-general .cls_order_list_page .general
+{
+	width: 100% !important;
+}
+.bg-orange {
+	background-color: #fd7e14 !important;
+}
+.bg-success {
+	background-color: #28a745 !important;
+}
+.bg-danger {
+	background-color: #dc3545 !important;
+}
+.bg-light {
+	background-color: #f8f9fa !important;
+}
+.text-center {
+	text-align: center !important;
+}
+.color-palette {
+	height: 35px !important;
+	line-height: 35px;
+	text-align: right;
+	padding-right: .75rem;
+	display: inline-block;
+	padding-left: 0.75rem;
+}
+.cls_color_white{
+	color: #fff !important;
+}
+
+/*START: Modal Box */
+.cls_customer_details_view_modal .text-center.bg-success.color-palette,
+.cls_customer_details_view_modal .text-center.bg-light.color-palette,
+.cls_customer_details_view_modal .bg-info.color-palette,
+.cls_customer_details_view_modal .text-center.bg-orange.color-palette.cls_color_white,
+.cls_customer_details_view_modal .text-center.bg-primary.color-palette.cls_color_white,
+.cls_customer_details_view_modal .text-center.bg-warning.color-palette,
+.cls_customer_details_view_modal .text-center.bg-danger.color-palette
+{
+	float: right;
+	width: 65%;
+	text-align: left !important;
+}
+.cls_customer_details_view_modal .modal-title{
+	text-align: left;
+}
+.cls_customer_details_view_modal .bg-light.color-palette {
+	width: 33%;
+	text-align: left;
+}
+.cls_customer_details_view_modal .modal-header {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 1rem;
+	border-bottom: 1px solid #e9ecef;
+	border-top-left-radius: .3rem;
+	border-top-right-radius: .3rem;
+}
+.cls_customer_details_view_modal .modal-header .close, .cls_customer_details_view_modal .modal-header .mailbox-attachment-close {
+	padding: 1rem;
+	margin: -1rem -1rem -1rem auto;
+}
+.cls_customer_details_view_modal .close, .cls_customer_details_view_modal .mailbox-attachment-close {
+	float: right;
+	font-size: 1.5rem;
+	font-weight: 700;
+	line-height: 1;
+	color: #000;
+	text-shadow: 0 1px 0 #fff;
+	opacity: .5;
+}
+.cls_customer_details_view_modal .justify-content-between {
+	-ms-flex-pack: justify !important;
+	justify-content: space-between !important;
+}
+.cls_customer_details_view_modal .modal-footer{
+	text-align: left !important;
+}
+/*END: Modal Box */
+
+/*END: Orders Listing Page*/
+
+/*START: User Payment Form*/
+.cls_user_payment_page .help-block
+{
+	/*color: #fcbe32;*/
+	/*color: #3aa1e3;*/
+	color: #a94442;
+}
+.cls_user_payment_form #user-payment-form-help-block
+{
+	color: #13931e !important;
+}
+.cls_user_payment_page
+{
+	text-align: center;
+}
+.flat-general .cls_user_payment_page .general
+{
+	width: 100% !important;
+}
+.cls_user_payment_page .form-group input
+{
+	width: 65% !important;
+	margin-left: 18%;
+}
+.cls_user_payment_page .form-group select
+{
+	width: 65% !important;
+	margin-left: 1%;
+}
+.cls_payment_type
+{
+	outline: 0 !important;
+}
+/*END: User Payment Form*/
+
+/*START: Payment Receipt Page*/
+.cls_payment_receipt_page .help-block
+{
+	/*color: #fcbe32;*/
+	/*color: #3aa1e3;*/
+	color: #a94442;
+}
+.cls_payment_receipt_form #payment-receipt-form-help-block
+{
+	color: #13931e !important;
+}
+.cls_payment_receipt_page
+{
+	text-align: center;
+}
+.flat-general .cls_payment_receipt_page .general
+{
+	width: 100% !important;
+}
+.cls_payment_receipt_page .form-group input
+{
+	width: 65% !important;
+	margin-left: 18%;
+}
+.cls_payment_receipt_page .form-group select
+{
+	width: 65% !important;
+	margin-left: 1%;
+}
+.cls_receipt_logo
+{
+	/*width: 276px;*/
+	/*height: 50px;*/
+	float: left;
+	/*margin: 25px 0;*/
+	margin-top: -5.3%;
+	position: relative;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.cls_receipt_logo img
+{
+	height: 80px !important;
+}
+/*END: Payment Receipt Page*/
+
+/*START: Company Page*/
+.cls_company_page
+{
+	width: 100% !important;
+}
+.cls_service_area_img
+{
+	height: 500px;
+	width: 100%;
+}
+/*END: Company Page*/
+
+/*START: About US Page*/
+.cls_about_us_page
+{
+	width: 100% !important;
+}
+.cls_about_company_points li
+{
+    list-style: disc;
+    margin-left: 2%;
+}
+/*END: About US Page*/
+
+/*START: Our Team Page*/
+.cls_our_team_page
+{
+	width: 100% !important;
+}
+/*END: Our Team Page*/
+
+/*START: Service Page*/
+.cls_service_page
+{
+	width: 100% !important;
+}
+.cls_service_page .box-content
+{
+	text-align: justify;
+}
+.flat-iconbox
+{
+	border-bottom: 1px solid #3aa1e3 !important;
+}
+/*END: Service Page*/
+
+/*START: Contact Us Page*/
+.cls_contact_us_form .help-block
+{
+	/*color: #fcbe32;*/
+	/*color: #3aa1e3;*/
+	color: #a94442;
+}
+.cls_contact_us_form #form-help-block
+{
+	color: #13931e;
+}
+/*END: Contact Us Page*/
+
+.logo img{
+	/*height: 100%;*/
+	height: 169%;	
+	margin-top: -6.5%;
+}
+
+/* START: Code for Video JS - Home Page Slider
+*/
+	#video {
+	  width: 100%;
+	  height: auto;
+	  margin: auto;
+	}
+	video {
+	  width: 100.2%;
+	  height: auto;
+	  cursor: pointer;
+	}
+
+	/*Spinner load*/
+		.poster {
+		  width: 38px;
+		  height: 38px;
+		  position: absolute;
+		  top: 200px;
+		  left: 50%;
+		  transform: rotateZ(45deg);
+		}
+
+		.poster .cube {
+			position: relative;
+			transform: rotateZ(45deg);
+		}
+
+		.poster .cube {
+			float: left;
+			width: 50%;
+			height: 50%;
+			position: relative;
+			transform: scale(1.1);
+		}
+
+		.poster .cube:before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			/*background-color: rgb(43,160,199);*/
+			background-color: rgb(58,161,227);
+			animation: cube 1.08s infinite linear both;
+			transform-origin: 100% 100%;
+		}
+
+		.poster .c2 {
+			transform: scale(1.1) rotateZ(90deg);
+		}
+
+		.poster .c3 {
+			transform: scale(1.1) rotateZ(180deg);
+		}
+
+		.poster .c4 {
+			transform: scale(1.1) rotateZ(270deg);
+		}
+
+		.poster .c2:before {
+			animation-delay: 0.135s;
+		}
+
+		.poster .c3:before {
+			animation-delay: 0.27s;
+		}
+
+		.poster .c4:before {
+			animation-delay: 0.405s;
+		}
+
+		@keyframes cube {
+			0%, 10% {
+				transform: perspective(70px) rotateX(-180deg);
+				opacity: 0;
+			}
+		  
+			25%, 75% {
+				transform: perspective(70px) rotateX(0deg);
+				opacity: 1;
+			}
+		  
+		  90%, 100% {
+		    transform: perspective(70px) rotateY(180deg);
+		    opacity: 0;
+		  }
+		}
+
+		@keyframes bg-pan-top {
+		  0% {
+		    background-position: 0% 50%;
+		  }
+		  50% {
+		    background-position: 50% 100%;
+		  }
+		  100% {
+		    background-position: 0% 50%;
+		  }
+		}
+
+/* END: Code for Video JS - Home Page Slider
+*/
+
+/* START: Code Header Section
+*/
+	.cls_main_header
+	{
+		margin-top:0px !important;
+	}
+	.cls_login_signup_menu
+	{
+		padding-bottom: 0px !important;
+	}
+	.cls_login_signup_menu.flat-top
+	{
+		background-color: #fff !important;
+		color: #000 !important;
+	}
+	.cls_login_signup_menu.flat-top .custom-info {
+		float: none !important;
+	}
+	.cls_header_login_signup > a {		
+		/*position: relative;
+		display: block;*/
+		font-family: "Poppins", sans-serif;
+		font-weight: 500;
+		color: #21242b !important;
+		font-size: 15px;
+		/*text-transform: capitalize;
+		text-decoration: none;
+		line-height: 100px;
+		padding: 0 13.5px 0 14px;
+		outline: none;*/
+	}
+	.page-title
+	{
+		/*padding:120px 0 !important;*/
+		padding:7.4% 0 !important;
+	}
+/* END: Code Header Section
+*/
